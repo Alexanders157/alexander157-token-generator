@@ -1,0 +1,24 @@
+{
+    "name": "alexander/alexander157-token-generator",
+    "type": "library",
+    "license": "MIT",
+    "autoload-dev": {
+        "psr-4": {
+            "TokenGenerator\\RandomTokenGenerator\\Tests\\": "tests/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "TokenGenerator\\RandomTokenGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexander",
+            "email": "Alexander157@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    }
+}
