@@ -6,14 +6,15 @@
     "autoload": {
         "psr-4": {
             "TokenGenerator\\": "src/"
-        },
+        }
+    },
 
     "autoload-dev": {
          "psr-4": {
              "TokenGenerator\\Tests\\": "tests/"
-            }
-        }
+         }
     },
+
     "authors": [
         {
             "name": "Alexander",
