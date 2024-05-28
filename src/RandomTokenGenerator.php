@@ -1,10 +1,10 @@
 <?php
 
-namespace TokenGenerator\RandomTokenGenerator\src;
+namespace TokenGenerator;
 
 class RandomTokenGenerator
 {
-    public static function generatetoken($length = 32)
+    public static function generatetoken($length = 32): string
     {
         return bin2hex(random_bytes($length / 2));
     }

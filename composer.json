@@ -1,15 +1,17 @@
 {
-    "name": "alexander157/alexander157-token-generator",
+    "name": "alexander157/token-generator",
     "type": "library",
     "license": "MIT",
-    "autoload-dev": {
-        "psr-4": {
-            "TokenGenerator\\RandomTokenGenerator\\Tests\\": "tests/"
-        }
-    },
+
     "autoload": {
         "psr-4": {
-            "TokenGenerator\\RandomTokenGenerator\\": "src/"
+            "TokenGenerator\\": "src/"
+        },
+
+    "autoload-dev": {
+         "psr-4": {
+             "TokenGenerator\\Tests\\": "tests/"
+            }
         }
     },
     "authors": [
@@ -20,5 +22,8 @@
     ],
     "require": {
         "php": "^8.0"
-    }
+    },
+
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
